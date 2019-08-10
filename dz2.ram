@@ -1,0 +1,37 @@
+
+read 1
+read 2
+load =0
+store 3
+load 1
+sub 2
+jgtz loop
+load 1
+store 4
+load 2
+store 1
+load 4
+store 2
+loop:
+    load 1
+    sub 2
+    store 1
+    load 3
+    add =1
+    store 3
+    load 1
+    sub 2
+jgtz loop
+add 2
+write 3
+write 0
+
+    
+    
+    
+    
+    
+
+
+
+
